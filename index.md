@@ -19,11 +19,12 @@ My projects in network verification have been in colloboration with [Ryan Becket
 
 Before [UCLA] happened, I  was an undergraduate student in the [CSE department][CS@IITKGP] at [IIT Kharagpur] where I was advised by [Prof. Sandip Chakraborty][Sandip Chakraborty] for my undergraduate thesis.
 
-
 {% include common_abbrv.md %}
 
 {% include common_links.md %}
 </div>
+
+{% include updates.md %}
 </main>
 
 
