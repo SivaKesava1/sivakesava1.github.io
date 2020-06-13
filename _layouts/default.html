@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if site.plugins_dir contains 'jekyll-seo-tag' %}
+    {% include head-seo.html %}
+    <title>{% if page.title %}
+        {%- capture clean_title -%}
+        {%- include text_process.md strip=true data=page.title -%}
+        {%- endcapture -%}
+        {%- if page.title == 'Home' -%}
+        {{site.short}}
+        {%- else -%}
+        {{- clean_title | strip_html }} &raquo; {{site.short}}
+        {%- endif -%}
+        {% else %}{{ site.name | escape }}{% endif %}</title>
+    {% else %}
+    <title>{% if page.title %}
+        {%- capture clean_title -%}
+        {%- include text_process.md strip=true data=page.title -%}
+        {%- endcapture -%}
+        {{- clean_title | strip_html }}
+        {% else %}{{ site.name | escape }}{% endif %}</title>
+    <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+    {% endif %}
+
+    <!-- Site Favicon -->
+    <link rel="shortcut icon" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
+
+    <!-- Font Embed Code -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i|Karla:400,400i,700,700i"
+        rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+</head>
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+
+<body class="{{ layout }}">
+    <div id="page" class="site">
+        {% include header.html %}
+        <div id="content" class="site-content fadeInDown delay_075s">
+            <div id='inner-wide' class="inner-wide">
+                {{ content }}
+            </div><!-- .inner-wide -->
+        </div><!-- .site-content -->
+    </div><!-- .site -->
+    <!-- Javascript Assets -->
+    <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+    <script src='https://saswatpadhi.github.io/prismjs-bibtex/prism-bibtex.min.js'
+    integrity='sha256-LdLe3QDoMjP5ed5hKliTe+/DmOChPYalAAjUNS+j2Lg=' crossorigin>
+    </script>
+    <script>
+        MathJax = {
+            tex: {
+                tags: 'ams',
+                inlineMath: [['$', '$']],
+                processEscapes: false,
+                processEnvironments: false,
+                processRefs: false,
+            }
+        }
+    </script>
+    <script src='https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-chtml.js'
+        integrity='sha256-h37zcxt3siZItdbF3C1YCiJz+FuG45k8SERUkNDAvko=' crossorigin>
+        </script>
+
+</body>
+
+</html>

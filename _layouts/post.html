@@ -1,0 +1,84 @@
+---
+layout: default
+disqus: false
+post_class: post-template
+
+icons:
+    DOI: book-open
+    PDF: file-pdf
+    Slides: desktop
+    Tool: terminal
+    Talk: video
+    Poster: file-image
+---
+
+<main id="main" class="site-main">
+
+    <article class="post-full inner">
+        <header class="post-header">
+            <h1 class="post-title">{% include text_process.md data=page.title %}</h1>
+            <div class="authors" style='font-size: 1em;'>
+                {% include format_authors.md data=page.authors tag="b" %}
+            </div>
+            <p>
+                {% if page.target.full -%}
+                {%- include text_process.md data=page.target.full -%}
+                <br>
+                {%- endif -%}
+                &langle;&thinsp;{% if page.target.link -%}
+                <a style='font-size: 1.05em;' href='{{ page.target.link }}'>
+                    {{- page.target.short }} {{ page.year }}</a><!-- .site-main -->
+                {%- else -%}
+                <!-- .site-main -->
+                {{ page.target.short }} {{ page.year }}
+                {%- endif %}&thinsp;&rangle;
+            </p>
+            {% if page.links or page.DOI -%}
+            <div class='pure-g' style='font-size: 1.2em; text-align: center;'>
+                {%- if page.DOI %}
+                <div class='pure-u-1-3 pure-u-sm-1-5'>
+                    <i class='fas fa-fw fa-{{ layout.icons.DOI }}'></i>&nbsp;
+                    <a href='{{ page.DOI.link }}'>{{ page.DOI.target }}</a>
+                </div>
+                {%- endif %}
+                {%- for link_data in page.links %}
+                <div class='pure-u-1-3 pure-u-sm-1-5'>
+                    {% assign link_name = link_data[0] -%}
+                    {% assign link_url = link_data[1] -%}
+                    <i class='fas fa-fw fa-{{ layout.icons[link_name] }}'></i>&nbsp;
+                    <a href='{% include text_process.md no_abbrv=true data=link_url %}'>{{ link_name }}</a>
+                </div>
+                {%- endfor %}
+            </div>
+            {%- endif %}
+        </header><!-- .post-header -->
+
+        {% if page.featured_image %}
+        <div class="post-thumbnail">
+            <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="{{ page.title }}">
+        </div>
+        {% endif %}
+        <div class="post-content">
+            {% include text_process.md data=content %}
+        </div>
+    </article>
+
+    <section class="read-next inner">
+        <h2 class="read-next-title">Read Next</h2>
+        {% if page.previous.url %}
+        <article class="post">
+            <header class="post-header">
+                <h3 class="post-title"><a href="{{ site.baseurl }}{{page.previous.url}}">{% include text_process.md data=page.previous.title %}</a>
+                </h3>
+            </header>
+        </article>
+        {% endif %}
+        {% if page.next.url %}
+        <article class="post">
+            <header class="post-header">
+                <h3 class="post-title"><a href="{{ site.baseurl }}{{page.next.url}}">{% include text_process.md data=page.next.title %}</a></h3>
+            </header>
+        </article>
+        {% endif %}
+    </section><!-- .read-next -->
+</main><!-- .site-main -->

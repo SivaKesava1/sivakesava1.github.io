@@ -1,0 +1,45 @@
+---
+---
+
+/**
+ * Royce 1.2.0
+ * By Just Good Themes - https://justgoodthemes.com/
+ */
+
+/**
+ * Table of Contents
+ * ----------------------------------------------------------------------------
+ * 0. Reset
+ * 1. General
+ * 2. Structure
+ * 3. Site Header
+ * 4. Content
+ *   4.1 Posts and Pages
+ *   4.2 Comments
+ *   4.3 Paging Navigation
+ * 5. Site Footer
+ * 6. Media Queries
+*/
+{% include sass_config.md %}
+
+@charset "UTF-8";
+@import "//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
+
+@import "//cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-min.css";
+
+@import "//cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css";
+
+@import "//use.fontawesome.com/releases/v5.11.2/css/all.css";
+
+@import "//cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css";
+// Imports
+@import "variables";
+@import "reset";
+@import "general";
+@import "structure";
+@import "header";
+@import "content";
+@import "footer";
+@import "search";
+@import "media-queries";
+@import "publications";

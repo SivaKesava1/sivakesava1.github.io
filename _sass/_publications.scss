@@ -1,0 +1,116 @@
+.paper-table {
+    margin: 0.8em 0;
+}
+
+.paper-left {
+    text-align: right;
+    // margin-top: -0.1em;
+    font-family: $font-primary;
+    .target {
+      // font-size: 1.06em;
+      margin: 0.1875em 0 0.1875em 0;
+      font-family: $font-primary;
+    }
+  
+    .icons {
+      margin-top: -0.25em;
+      font-size: 0.8em;
+      letter-spacing: 0.16em;
+      font-family: $font-secondary;
+      a{
+        color: rgb(13, 117, 177);  
+        text-decoration: none;
+        letter-spacing: 0.035em;
+        -webkit-transition: background .3s ease, color .3s ease;
+        transition: background .3s ease, color .3s ease;
+      }
+      a:hover {
+        color: $color-accent-darker;
+        text-decoration: none;
+      }
+    }
+  
+    sup {
+      top: -0.125em;
+    }
+}
+
+.paper-right {
+  font-family: $font-primary;
+  > div {
+    margin-left: 1em;
+  }
+
+  .title {
+    letter-spacing: 0.04em;
+    font-size: 1.06em;
+    font-family: $font-primary;
+    // text-shadow: 0px 0px 0px #070, 0px 0px 0px #070;
+    color: rgb(24, 134, 24);    
+    &:hover,
+      &:focus {
+       color: $color-accent-darker;
+       text-decoration: none;
+    }
+  }
+}
+  
+.authors{
+  font-size: 0.85em;
+  margin-top: -0.25em;
+  font-family: $font-primary;
+  .color-medium-accent {
+    color: rgb(100, 0, 143);
+    font-size: 1em;
+    opacity: 0.95; 
+  }
+  a {
+    color:rgb(1, 91, 143); 
+    &:hover,
+    &:focus {
+    //  color: lighten(rgb(2, 107, 168), 14%);
+    color: $color-accent-darker; 
+    text-decoration: none;
+   }
+  }
+  p{
+    margin: 0;
+  }
+}
+
+//Some of the post-full settings are in content
+
+.post-full .post-content{
+  text-align: justify;
+}
+
+.post-full .post-header:after {
+  background-color: $color-accent;
+  display: block;
+  content: "";
+  height: 1.25px;
+  margin-top: 0.875em;
+  width: 100px;
+}
+
+.post-full .post-header{
+  p {
+    margin: 1em 0;
+  }
+  a {
+    color:rgb(1, 91, 143); 
+    &:hover,
+    &:focus {
+    //  color: lighten(rgb(2, 107, 168), 14%);
+    color: $color-accent-darker; 
+    text-decoration: none;
+   }
+  }
+}
+
+.post-full .post-content pre{
+  border-style: dashed;
+  background-color: #fdfbf6;
+  border-radius: 0.5em;
+  border-color: #d69928;
+}

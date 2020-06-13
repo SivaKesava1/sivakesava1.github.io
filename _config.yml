@@ -1,0 +1,83 @@
+# Site setings
+name: 'Siva Kesava Reddy Kakarla'
+short: 'Siva Kakarla'
+description1: 'PhD student'
+description2: 'Computer Science at UCLA'
+meta_description: 'Personal website'
+logo:
+# Author image is used in site sidebar and greetings in the home page hero text
+author:
+  image: 'authorimage.jpg'
+favicon: 'assets/images/favicon.ico'
+baseurl: 
+production_url: https://royce.netlify.com/
+disqus: 'justgoodthemes'
+mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+# Add your GA Tracking Id
+ga_analytics: 
+
+# Contact form setings
+email: sivakesava@cs.ucla.edu
+contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
+thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
+
+# Social links
+github: sivakesava1
+gitlab: #username
+stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin: siva-kesava1
+skype: #username
+xing: #username
+instagram: #username
+lastfm: #username
+tumblr: #username
+pinterest: #username
+foursquare: #username
+steam: #username
+dribbble: #username
+youtube: #username
+soundcloud: #username
+weibo: #username
+flickr: #username
+500px: #username
+codepen: #username
+reddit: #username
+telegram: #username
+googlescholar: https://scholar.google.com/citations?user=f7YDIP0AAAAJ&hl=en
+
+
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: Publications
+    url: /publications
+  - text: Resume
+    url: /resume
+  - text: Contact Me
+    url: /contact
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# # Pagination
+# paginate: 5
+# paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  projects:
+    output: true
