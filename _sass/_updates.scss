@@ -1,0 +1,136 @@
+$color-highlight: #247028;
+$color-hyperlink: #0277BD;
+$color-accent-icon: #c22b29;
+$color-medium-accent: #7a1b7a;
+
+.updates-small-caps {
+    font-variant: small-caps;
+}
+
+.color-faded { opacity: 0.85; }
+
+.color-more-faded { opacity: 0.7; }
+
+.color-medium-accent{
+    color: $color-medium-accent;
+    fill: $color-medium-accent;
+}
+
+.color-university{
+    color: rgb(0, 64, 86);
+    fill: rgb(0, 64, 86);
+}
+
+.color-talk{
+    color: #8f5a0b;
+    fill: #a06204;
+}
+
+.color-poster{
+    color: #4f7216;
+    fill: #2E7D32;
+}
+
+// .color-check{
+//     color: $color-highlight;
+//     fill: $color-highlight;
+// }
+
+.color-accent{
+    color: $color-accent-icon;
+    fill: $color-accent-icon;
+}
+
+.color-highlight{
+    color: $color-highlight;
+    fill: $color-highlight;
+}
+
+
+.events {
+    opacity: 1;
+    margin-bottom: -0.75em;
+    transition: opacity 0.2s ease;
+}
+  
+.events .event-date {
+font-size: 1.025em;
+text-align: right;
+padding-right: 0.75em;
+margin-left: -0.75em;
+margin-top: -0.125em;
+font-family: $font-primary;
+> i {
+    font-size: 0.8em;
+    vertical-align: super;
+    font-style: normal;
+    padding-left: 0.25em;
+}
+
+> b {
+    padding-right: 0.75em;
+    font-weight: normal;
+}
+} 
+
+.events .event-icon {
+    // margin-top: -0.05em;
+    font-size: 1em;
+    text-align: center;
+    margin-right: 0.4em;
+    margin-left: -0.4em;
+}
+
+.events .event-location {
+    margin-top: -0.7em;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+
+.events .event-description {
+    font-family: $font-primary;
+    > p {
+    //   margin-top: 0.25em;
+      margin-bottom: 1.5em;
+      text-align: justify;
+    }
+  
+    .photo-box {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 1em;
+    }
+  
+    img {
+      max-width: 12em;
+      max-height: 6.5em;
+      padding: 0.15em;
+      background-color: #444;
+      border-radius: 5px;
+    }
+
+    a{
+        color: rgb(2, 107, 168);  
+        text-decoration: none;
+        letter-spacing: 0.035em;
+        -webkit-transition: background .3s ease, color .3s ease;
+        transition: background .3s ease, color .3s ease;
+      }
+    a:hover {
+    color: $color-accent-darker;
+    text-decoration: none;
+    }
+
+    .heading{
+        font-family: $font-secondary;
+        font-weight: bold;
+        font-size: 1.17em;
+        i{
+            font-size: 0.9em;
+        }
+    }
+}
+

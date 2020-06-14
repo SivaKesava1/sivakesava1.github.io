@@ -1,8 +1,8 @@
 # Site setings
 name: 'Siva Kesava Reddy Kakarla'
 short: 'Siva Kakarla'
-description1: 'PhD student'
-description2: 'Computer Science at UCLA'
+description: 'PhD student'
+description1: 'Computer Science at UCLA'
 meta_description: 'Personal website'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
@@ -78,6 +78,22 @@ sass:
   sass_dir: _sass
   style: compressed
 
+default_icon:
+  award: award
+  position: id-badge
+  publication: file-alt
+  service: user-cog
+  talk: microphone
+  teaching: chalkboard-teacher
+
+default_highlight:
+  award: accent
+  position: medium-accent
+  publication: highlight
+  talk: talk
+    
 collections:
   projects:
     output: true
+  updates:
+    output: false

@@ -58,6 +58,14 @@
   .post-featured:nth-child(3):last-child .post-thumbnail {
     padding-top: calc(90% + 9px);
   }
+
+  // .visible-at-medium{
+  //   display: initial;
+  //   float: right;
+  // }
+  // .hidden-at-medium{
+  //   display: none;
+  // }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
@@ -84,6 +92,13 @@
   .sl-wrapper .sl-counter {
     bottom: 15px;
     right: 15px;
+  }
+  .visible-at-medium{
+    display: initial;
+    float: right;
+  }
+  .hidden-at-medium{
+    display: none;
   }
 }
 
@@ -245,7 +260,14 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+  .visible-at-medium{
+    display: none;
+    float: right;
+  }
+  .hidden-at-medium{
+    display: initial;
+  }
   html {
     font-size: 100%;
   }

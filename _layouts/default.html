@@ -23,7 +23,11 @@
         {%- capture clean_title -%}
         {%- include text_process.md strip=true data=page.title -%}
         {%- endcapture -%}
-        {{- clean_title | strip_html }}
+        {%- if page.title == 'Home' -%}
+        {{site.short}}
+        {%- else -%}
+        {{- clean_title | strip_html }} &raquo; {{site.short}}
+        {%- endif -%}
         {% else %}{{ site.name | escape }}{% endif %}</title>
     <meta name="description"
         content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">

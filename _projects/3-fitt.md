@@ -17,7 +17,7 @@ target:
     short: arXiv
 
 links:
-    PDF: '%BASE_URL%/assets/pdf/=sc^FITT^sc=.pdf'
+    PDF: '%BASE_URL%/assets/pdf/FITT.pdf'
 ---
 
 #### Abstract

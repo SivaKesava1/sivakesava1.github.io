@@ -18,11 +18,11 @@
                         <a href="{{ site.baseurl }}/">{{site.name}}</a>
                     </h1>
                     {% endif %}
+                    {% if site.description %}
+                    <p class="site-description">{{site.description}}</p>
+                    {% endif %}
                     {% if site.description1 %}
                     <p class="site-description">{{site.description1}}</p>
-                    {% endif %}
-                    {% if site.description2 %}
-                    <p class="site-description">{{site.description2}}</p>
                     {% endif %}
                 </div><!-- .site-identity -->
                 {% endif %}
@@ -43,6 +43,9 @@
                         {% endfor %}
                     </ul>
                     {% include social-links.html %}
+                    <footer class="site-footer">
+                        <p class="text-small text-grey-dk-000 mb-4">Theme from <a href="https://royce.netlify.app/" target="_blank">Royce</a>, & <a target="_blank" href="https://github.com/SaswatPadhi/saswatpadhi.github.io">S Padhi.</a></p>
+                    </footer>
                     </div><!-- .site-nav-inside -->
                 </div><!-- .site-nav-wrap -->
             </nav><!-- .site-navigation -->
