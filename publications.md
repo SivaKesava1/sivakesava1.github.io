@@ -30,7 +30,7 @@ title: Publications
                     {%- endif %}
                 {% endif %})</div>
             </div>
-            <div class='flex-right paper-right'>
+            <div class='paper-right'>
                 <div>
                 <a class='title highlighted' href='{{ project.url }}'>{% include text_process.md data=project.title %}</a><br>
                 <div class='authors'>{% include format_authors.md data=project.authors %}</div>
