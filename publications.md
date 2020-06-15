@@ -9,8 +9,8 @@ title: Publications
     {% if project.sorter == 1 -%}
      <hr>
     {% endif %}
-        <div class='pure-g paper-table'>
-            <div class='pure-u-1-3 pure-u-sm-1-4 pure-u-md-5-24 pure-u-lg-1-6 paper-left'>
+        <div class='paper-table flex-container'>
+            <div  class='paper-left'>
                 <span style='letter-spacing: 0.025em;' class='target'>
                 {%- capture target -%}
                     {{- project.target.short }} =qq= {{ project.year | slice: 2,2 -}}
@@ -30,7 +30,7 @@ title: Publications
                     {%- endif %}
                 {% endif %})</div>
             </div>
-            <div class='pure-u-2-3 pure-u-sm-3-4 pure-u-md-19-24 pure-u-lg-5-6 paper-right'>
+            <div class='flex-right paper-right'>
                 <div>
                 <a class='title highlighted' href='{{ project.url }}'>{% include text_process.md data=project.title %}</a><br>
                 <div class='authors'>{% include format_authors.md data=project.authors %}</div>

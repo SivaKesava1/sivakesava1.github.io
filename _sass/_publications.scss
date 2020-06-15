@@ -1,3 +1,8 @@
+
+.flex-container {
+  display: flex;
+}
+
 .paper-table {
     margin: 0.8em 0;
 }
@@ -6,6 +11,7 @@
     text-align: right;
     // margin-top: -0.1em;
     font-family: $font-primary;
+    flex-basis: 17%;
     .target {
       // font-size: 1.06em;
       margin: 0.1875em 0 0.1875em 0;
@@ -36,6 +42,7 @@
 }
 
 .paper-right {
+  flex-basis: 83%;
   font-family: $font-primary;
   > div {
     margin-left: 1em;
