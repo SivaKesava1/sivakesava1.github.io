@@ -45,3 +45,29 @@ we find GRoot can scale to networks with tens of millions of
 records.
 
 {% include common_links.md %}
+
+#### BibTeX Citation
+
+```bibtex {% raw %}
+@inproceedings{10.1145/3387514.3405871,
+    author = {Kakarla, Siva Kesava Reddy and 
+              Beckett, Ryan and
+              Arzani, Behnaz and
+              Millstein, Todd and
+              Varghese, George},
+    title = {GRooT: Proactive Verification of DNS Configurations},
+    year = {2020},
+    isbn = {9781450379557},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3387514.3405871},
+    doi = {10.1145/3387514.3405871},
+    booktitle = {Proceedings of the Annual Conference of the ACM Special Interest Group on Data Communication on the Applications, Technologies, Architectures, and Protocols for Computer Communication},
+    pages = {310–328},
+    numpages = {19},
+    keywords = {DNS, Formal Methods, Verification, Static Analysis},
+    location = {Virtual Event, USA},
+    series = {SIGCOMM ’20}
+}
+{% endraw %} ```
+
