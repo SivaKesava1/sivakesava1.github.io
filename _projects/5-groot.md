@@ -7,8 +7,9 @@ authors : ['Siva Kesava Reddy Kakarla', '[Ryan Beckett]', '[Behnaz Arzani]', '[T
 
 year: 2020
 
-# DOI:
-#     target: ACM DL
+DOI:
+    target: ACM DL
+    link: 'https://doi.org/10.1145/3387514.3405871'
 
 target:
     short: SIGCOMM
@@ -16,9 +17,10 @@ target:
     link: 'https://conferences.sigcomm.org/sigcomm/2020/'
 
 links:
-    # PDF: '%BASE_URL%/assets/pdf/nsdi20_selfstarter.pdf'
+    PDF: '%BASE_URL%/assets/pdf/sigcomm20_groot.pdf'
+    Poster: '/assets/pdf/Poster2019.pdf'
     Tool: 'https://github.com/dns-groot/groot'
-    Poster: /assets/pdf/Poster2019.pdf
+    Talk: 'https://dl.acm.org/doi/abs/10.1145/3387514.3405871#sec-supp'
 ---
 
 #### Abstract
