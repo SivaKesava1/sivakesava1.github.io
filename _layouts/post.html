@@ -47,6 +47,14 @@ icons:
                     {% assign link_url = link_data[1] -%}
                     <i class='fas fa-fw fa-{{ layout.icons[link_name] }}'></i>&nbsp;
                     <a href='{% include text_process.md no_abbrv=true data=link_url %}'>{{ link_name }}</a>
+                    {%- if page.long -%}
+                        {%- for long_data in page.long %}
+                            {%- if long_data[0] == link_name -%}
+                                {% assign long_url = long_data[1] -%}
+                                <a href='{% include text_process.md no_abbrv=true data=long_url%}'>&thinsp;(Long)</a>
+                            {%- endif %}
+                        {%- endfor %}
+                    {%- endif %}
                 </div>
                 {%- endfor %}
             </div>

@@ -18,9 +18,15 @@ target:
 
 links:
     PDF: '%BASE_URL%/assets/pdf/sigcomm20_groot.pdf'
-    Poster: '/assets/pdf/Poster2019.pdf'
+    # Poster: '/assets/pdf/Poster2019.pdf'
     Tool: 'https://github.com/dns-groot/groot'
+    Talk: 'https://youtu.be/CV_-MH7tSLM'
+    Slides: 'https://1drv.ms/p/s!AhY-8TRoGbdAiU5qIyG494E4UfkS?e=0QqV8b'
+
+long:
+    Slides: 'https://1drv.ms/p/s!AhY-8TRoGbdAiUuCYjFZx3mUoPCG?e=6As6rq'
     Talk: 'https://dl.acm.org/doi/abs/10.1145/3387514.3405871#sec-supp'
+
 ---
 
 #### Abstract
