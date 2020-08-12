@@ -3,6 +3,23 @@ layout: default
 disqus: false
 post_class: post-template
 
+artifact_badges:
+  acm_available:
+    image: acm_available.jpg
+    info: https://www.acm.org/publications/policies/artifact-review-badging#available
+  acm_functional:
+    image: acm_functional.jpg
+    info: https://www.acm.org/publications/policies/artifact-review-badging#functional
+  acm_replicated:
+    image: acm_replicated.jpg
+    info: https://www.acm.org/publications/policies/artifact-review-badging#replicated
+  acm_reproduced:
+    image: acm_reproduced.jpg
+    info: https://www.acm.org/publications/policies/artifact-review-badging#reproduced
+  acm_reusable:
+    image: acm_reusable.jpg
+    info: https://www.acm.org/publications/policies/artifact-review-badging#reusable
+
 icons:
     DOI: book-open
     PDF: file-pdf
@@ -17,9 +34,24 @@ icons:
     <article class="post-full inner">
         <header class="post-header">
             <h1 class="post-title">{% include text_process.md data=page.title %}</h1>
-            <div class="authors" style='font-size: 1em;'>
+            <div class="authors" style='font-size: 1.1em;'>
                 {% include format_authors.md data=page.authors tag="b" %}
             </div>
+
+            {% if page.artifact_badges or page.awards -%}
+            <p style='font-size: 1.2em;' class='badges color-accent color-faded'>
+                {% for award in page.awards %}
+                    &loang;&hairsp;<i class='fas fa-fw fa-sm fa-{{ award.icon }}'></i>&nbsp; {% include text_process.md data=award.desc %}&hairsp;&roang; &nbsp;
+                {% endfor %}
+                {% if page.artifact_badges and page.awards %} <br style='display: block; margin: 1em 0; line-height: 2em; content: ""'> {% endif %}
+                {% for badge in page.artifact_badges %}
+                    <a href="{{ layout.artifact_badges[badge].info }}">
+                    <img style="width: 5em; padding-right: 1em;" src="{{ site.baseurl }}/assets/images/artifact_evaluation/{{ layout.artifact_badges[badge].image }}" alt="[artifact {{ badge }}]"/>
+                    </a>
+                {% endfor %}
+            </p>
+            {%- endif %}
+
             <p>
                 {% if page.target.full -%}
                 {%- include text_process.md data=page.target.full -%}

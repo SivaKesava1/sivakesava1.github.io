@@ -34,6 +34,13 @@ title: Publications
                 <div>
                 <a class='title highlighted' href='{{ project.url }}'>{% include text_process.md data=project.title %}</a><br>
                 <div class='authors'>{% include format_authors.md data=project.authors %}</div>
+                 {%- if project.awards %}
+                    <div class='awards color-accent'>
+                    {%- for award in project.awards -%}
+                        &loang;&hairsp;<i class='fas fa-fw fa-sm fa-{{ award.icon }}'></i>&nbsp; {% include text_process.md data=award.desc %}&hairsp;&roang; &nbsp;
+                    {%- endfor -%}
+                    </div>
+                {% endif -%}
                 </div>
             </div>
         </div>

@@ -11,6 +11,12 @@ DOI:
     target: ACM DL
     link: 'https://doi.org/10.1145/3387514.3405871'
 
+artifact_badges: ['acm_available', 'acm_functional']
+
+awards:
+  - icon: star
+    desc: 'Best Student Paper Award'
+
 target:
     short: SIGCOMM
     full: 'Proceedings of the ACM Special Interest Group on Data Communication, 2020'

@@ -60,6 +60,9 @@
        text-decoration: none;
     }
   }
+  .awards{
+    font-size: 0.85em;
+  }
 }
   
 .authors{
@@ -103,6 +106,7 @@
 .post-full .post-header{
   p {
     margin: 1em 0;
+   
   }
   a {
     color:rgb(1, 91, 143); 
@@ -113,6 +117,10 @@
     text-decoration: none;
    }
   }
+  .badges{
+    margin: 0.3em 0;
+  }
+ 
 }
 
 .post-full .post-content pre{
