@@ -50,7 +50,7 @@ resolution. Applied to the configuration files from
 a campus network with over a hundred thousand records,
 =sc^GRoot^sc=  revealed 109 bugs within seconds. When
 applied to internal zone files consisting of over $3.5$ million records
-from a large v service provider, =sc^GRoot^sc=  revealed around $160k$ issues of
+from a large infrastructure service provider, =sc^GRoot^sc=  revealed around $160k$ issues of
 blackholing, initiating a cleanup. Finally,
 on a synthetic dataset with over $65$ million real records,
 we find GRoot can scale to networks with tens of millions of
