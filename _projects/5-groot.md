@@ -67,7 +67,7 @@ records.
               Arzani, Behnaz and
               Millstein, Todd and
               Varghese, George},
-    title = {GRooT: Proactive Verification of DNS Configurations},
+    title = {GRoot: Proactive Verification of DNS Configurations},
     year = {2020},
     isbn = {9781450379557},
     publisher = {Association for Computing Machinery},
@@ -77,7 +77,7 @@ records.
     booktitle = {Proceedings of the Annual Conference of the ACM Special Interest Group on Data Communication on the Applications, Technologies, Architectures, and Protocols for Computer Communication},
     pages = {310–328},
     numpages = {19},
-    keywords = {DNS, Formal Methods, Verification, Static Analysis},
+    keywords = {Static Analysis, Verification, DNS, Formal Methods},
     location = {Virtual Event, USA},
     series = {SIGCOMM ’20}
 }
