@@ -35,6 +35,10 @@ long:
 
 ---
 
+#### Note
+
+We have updated the paper to handle empty non-terminals as per the RFCs properly. The updated paper is available through the above PDF link.
+
 #### Abstract
 
 The Domain Name System (DNS) plays a vital role in today’s Internet but relies on complex distributed management of host records. DNS
