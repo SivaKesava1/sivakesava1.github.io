@@ -7,7 +7,7 @@ title: Home
 <h1 class="title-small-caps">About Me</h1>
 
 <div class="bio" markdown="1">
-I am a third year PhD student, in the [CS department][CS@UCLA] at [UCLA], where I am fortunate to be advised by two amazing people, [Prof. Todd Millstein][Todd Millstein] and [Prof. George Varghese][George Varghese]. My research interests lie at the intersection of Networks and Programming Languages. My work is focused on addressing two key limitations in the current network verification technology - the lack of formal specifications, and a shallow application that is limited only to the routing layer. 
+I am a fourth year PhD student, in the [CS department][CS@UCLA] at [UCLA], where I am fortunate to be advised by two amazing people, [Prof. Todd Millstein][Todd Millstein] and [Prof. George Varghese][George Varghese]. My research interests lie at the intersection of Networks and Programming Languages. My work is focused on addressing two key limitations in the current network verification technology - the lack of formal specifications, and a shallow application that is limited only to the routing layer. 
 
 {% comment -%}
 My work is focused on addressing the limitations in the current network verification technology - the lack of formal specifications, and a shallow application that is limited only to the routing layer.

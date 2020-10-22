@@ -5,7 +5,7 @@ type: award
 
 icon: star
 
-headline: SIGCOMM Best Student Paper Award
+headline: '[SIGCOMM Best Student Paper Award](http://www.sigcomm.org/awards/student-award-recipients)'
 ---
 
 Our [=sc^GRoot^sc=]({{ site.baseurl }}/projects/5-groot) paper
