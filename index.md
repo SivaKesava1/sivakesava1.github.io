@@ -14,7 +14,7 @@ My work is focused on addressing the limitations in the current network verifica
 My research seeks to make it easier for operators to design, build, and maintain reliable distributed networks
 {%- endcomment -%}
 
-My projects in network verification have been in colloboration with [Ryan Beckett] and [Behnaz Arzani] from [MNR ] group at [Microsoft Research] and [Karthick Jayaraman] from Windows Azure security group at Microsoft.
+My projects in network verification have been in collaboration with [Ryan Beckett] and [Behnaz Arzani] from [MNR ] group at [Microsoft Research] and [Karthick Jayaraman] from Microsoft Azure. Our work, [<span class='small-caps'>GRoot</span>: Proactive Verification of DNS Configurations]({{ site.baseurl }}/projects/5-groot), received a [**SIGCOMM best student paper award**](http://www.sigcomm.org/awards/student-award-recipients) and has also been featured on the [**APNIC blog**](https://blog.apnic.net/2020/10/29/find-bugs-in-your-dns-zone-files-before-deployment/).  
 
 Before [UCLA] happened, I  was an undergraduate student in the [CSE department][CS@IITKGP] at [IIT Kharagpur] where I was advised by [Prof. Sandip Chakraborty][Sandip Chakraborty] for my undergraduate thesis.
 
