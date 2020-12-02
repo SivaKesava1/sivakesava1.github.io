@@ -5,6 +5,8 @@ type: award
 
 icon: star
 
+photo: 'best_paper.jpg'
+
 headline: '[SIGCOMM Best Student Paper Award](http://www.sigcomm.org/awards/student-award-recipients)'
 ---
 
