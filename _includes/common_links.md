@@ -34,7 +34,7 @@
 {% comment %}             AWARDS, GRANTS etc.
 {% endcomment %}
 [MSR fellowship]:         https://www.microsoft.com/en-us/research/academic-program/phd-fellowship-program
-[UCLA DYF]:               https://www.eeb.ucla.edu/graduate-student-support/#:~:text=This%20prestigious%20fellowship%20issued%20by,the%20first%20and%20second%20year.
+[UCLA@GDSA]:               https://www.eeb.ucla.edu/graduate-student-support/#:~:text=This%20prestigious%20fellowship%20issued%20by,the%20first%20and%20second%20year.
 
 
 {% comment %}             CONFERENCES etc.
