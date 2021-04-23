@@ -66,18 +66,17 @@ $color-medium-accent: #7a1b7a;
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    justify-content: space-between;
     .flex-test{
         margin-bottom: 1%; /* (100-32*3)/2 */
     }
     .flex-description{
-        flex: 0 85%;
+        width: 75%;
     }
     .flex-date{
-        width: 50px;
+        width: 8%;
     }
     .flex-icon{
-        width: 20px;
+        width: 5%;
     }
 }
 
