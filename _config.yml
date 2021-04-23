@@ -1,7 +1,7 @@
 # Site setings
 name: 'Siva Kesava Reddy Kakarla'
 short: 'Siva Kakarla'
-description: 'PhD student'
+description: 'PhD Candidate'
 description1: 'Computer Science at UCLA'
 meta_description: 'Personal website'
 logo:
@@ -18,8 +18,6 @@ ga_analytics:
 
 # Contact form setings
 email: sivakesava@cs.ucla.edu
-contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
-thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
 github: sivakesava1
@@ -50,12 +48,15 @@ googlescholar: https://scholar.google.com/citations?user=f7YDIP0AAAAJ&hl=en
 navigation:
   - text: Home
     url: /
+  - text: Updates
+    url: /updates
   - text: Publications
     url: /publications
   - text: Resume
     url: /resume
   - text: Contact Me
     url: /contact
+  
 
 # Required Plugins
 plugins_dir:

@@ -28,6 +28,11 @@
     color: $color-accent-darker;
     text-decoration: none;
   }
+  h4{
+      em{
+        opacity: 0.25;
+      }
+  }
 }
 
 abbr[title], acronym[title] {

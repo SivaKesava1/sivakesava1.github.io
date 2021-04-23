@@ -3,7 +3,7 @@ layout: default
 title: Contact Me
 ---
 <main id="main" class="site-main">
-        <h1 class="title-small-caps"><i class="far fa-fw fa-address-book"></i>{{ page.title }}</h1>
+        <h1 class="title-small-caps"><i style="font-size:0.8em;" class="far fa-fw fa-address-book"></i>&nbsp;{{ page.title }}</h1>
         <div class='bio' markdown='1'>
 <em>Office</em>: &nbsp; Room 486, [Engineering VI, UCLA.][Engineering]
 <br>

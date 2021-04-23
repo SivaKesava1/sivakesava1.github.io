@@ -50,13 +50,38 @@ $color-medium-accent: #7a1b7a;
     fill: $color-highlight;
 }
 
-
 .events {
     opacity: 1;
     margin-bottom: -0.75em;
     transition: opacity 0.2s ease;
 }
-  
+
+.mini-events {
+    opacity: 1;
+    margin-bottom: -0.75em;
+    transition: opacity 0.2s ease;
+}
+
+.mini-events .flex-container {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+    .flex-test{
+        margin-bottom: 1%; /* (100-32*3)/2 */
+    }
+    .flex-description{
+        flex: 0 85%;
+    }
+    .flex-date{
+        width: 50px;
+    }
+    .flex-icon{
+        width: 20px;
+    }
+}
+
+
 .events .event-date {
 font-size: 1.025em;
 text-align: right;
@@ -77,6 +102,25 @@ font-family: $font-primary;
 }
 } 
 
+.mini-events .event-date {
+    font-size: 1.025em;
+    text-align: right;
+    padding-right: 0.75em;
+    margin-left: 0.4em;
+    font-family: $font-primary;
+    i {
+        font-size: 0.8em;
+        vertical-align: super;
+        font-style: normal;
+        padding-left: 0.25em;
+    }
+    
+    b {
+        padding-right: 0.75em;
+        font-weight: normal;
+    }
+} 
+
 .events .event-icon {
     // margin-top: -0.05em;
     font-size: 1em;
@@ -85,12 +129,34 @@ font-family: $font-primary;
     margin-left: -0.4em;
 }
 
+.mini-events .event-icon {
+    // margin-top: -0.05em;
+    font-size: 1em;
+    text-align: center;
+    margin-right: 1em;
+    margin-left: 0.4em;
+}
+
 .events .event-location {
     margin-top: -0.7em;
     font-size: 0.9em;
     font-style: italic;
 }
 
+.mini-events .event-location {
+    margin-top: -0.7em;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.mini-events .event-description {
+    font-family: $font-primary;
+    > p {
+    //   margin-top: 0.25em;
+      margin-bottom: 1.5em;
+      text-align: justify;
+    }
+}
 
 .events .event-description {
     font-family: $font-primary;

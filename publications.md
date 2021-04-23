@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 <main id="main" class="site-main">    
-    <h1 class="title-small-caps"> <i class="fa fa-fw fa-copy"></i>{{ page.title }}</h1>
+    <h1 class="title-small-caps"> <i style="font-size:0.8em;" class="fa fa-fw fa-copy"></i>&nbsp;{{ page.title }}</h1>
     {% assign xprojects = site.projects  | sort: 'sorter' | reverse%}
     {% for project in xprojects %}
     {% if project.sorter == 1 -%}
