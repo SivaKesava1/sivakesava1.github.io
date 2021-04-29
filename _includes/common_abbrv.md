@@ -10,6 +10,8 @@
 *[DNS]:             Domain Name System
 *[WAN]:             Wide Area Networks
 
+
+*[CVE]:             Common Vulnerabilities and Exposures
 *[NSDI]:            (USENIX Symposium on) Networked Systems Design and Implementation
 *[SIGCOMM]:         ACM Special Interest Group on Data Communication
 *[GLOBECOM]:        IEEE Global Communications Conference
