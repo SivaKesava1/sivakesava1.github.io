@@ -16,7 +16,8 @@
 [Vishrant Vasavada]:      https://www.linkedin.com/in/vvasavada
 [Saketh Mahankali]:       https://www.linkedin.com/in/saketh-mahankali-702973a7
 [Anees Shaikh]:           http://ashaikh.com/ashaikh_com/
-
+[Ennan Zhai]:             https://ennanzhai.github.io/
+[Matt Brown]:             https://www.intentionet.com/team/matt-brown/
 
 {% comment %}             SCHOOLS
 {% endcomment %}
@@ -41,3 +42,4 @@
 {% endcomment %}
 [NSDI 2020]:               https://www.usenix.org/conference/nsdi20
 [SIGCOMM 2020]:            https://conferences.sigcomm.org/sigcomm/2020/
+[SIGCOMM 2021]:            https://conferences.sigcomm.org/sigcomm/2021/
