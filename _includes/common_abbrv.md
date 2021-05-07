@@ -9,7 +9,7 @@
 
 *[DNS]:             Domain Name System
 *[WAN]:             Wide Area Networks
-
+*[OARC]:            Operations, Analysis, and Research Center
 
 *[CVE]:             Common Vulnerabilities and Exposures
 *[NSDI]:            (USENIX Symposium on) Networked Systems Design and Implementation
