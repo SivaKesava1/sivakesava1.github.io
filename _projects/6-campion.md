@@ -7,13 +7,19 @@ authors : ['Alan Tang', 'Siva Kesava Reddy Kakarla', '[Ryan Beckett]', '[Ennan Z
 
 year: 2021
 
+DOI:
+    target: ACM DL
+    link: 'https://doi.org/10.1145/3452296.3472925'
+
+artifact_badges: ['acm_available', 'acm_functional']
+
 target:
     short: SIGCOMM
     full: 'Proceedings of the ACM Special Interest Group on Data Communication, 2021'
     link: 'https://conferences.sigcomm.org/sigcomm/2021/'
 
 links:
-    # PDF: '%BASE_URL%/assets/pdf/sigcomm20_groot.pdf'
+    PDF: '%BASE_URL%/assets/pdf/sigcomm21_campion.pdf'
     # Poster: '/assets/pdf/Poster2019.pdf'
     Tool: 'https://github.com/atang42/batfish/tree/rm-localize'
     # Talk: 'https://youtu.be/CV_-MH7tSLM'
