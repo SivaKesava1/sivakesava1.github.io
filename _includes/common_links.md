@@ -4,7 +4,7 @@
 [George Varghese]:        https://web.cs.ucla.edu/~varghese
 [Yuval Tamir]:            https://web.cs.ucla.edu/~tamir
 [Ravi Netravali]:         https://web.cs.ucla.edu/~ravi
-[Ryan Beckett]:           http://www.beckett.ninja/#home
+[Ryan Beckett]:           https://www.microsoft.com/en-us/research/people/rybecket/
 [Ratul Mahajan]:          https://ratul.org/
 [Victor Bahl]:            https://www.microsoft.com/en-us/research/people/bahl/
 [Karthick Jayaraman]:     http://kjayaram.mysite.syr.edu/Home.html  

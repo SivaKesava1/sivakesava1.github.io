@@ -37,3 +37,30 @@ debugging pairs of backup routers from different manufacturers and validating re
 
 {% include common_links.md %}
 
+#### BibTeX Citation
+
+```bibtex {% raw %}
+@inproceedings{10.1145/3452296.3472925,
+    author = {Tang, Alan and
+              Kakarla, Siva Kesava Reddy and
+              Beckett, Ryan and
+              Zhai, Ennan and
+              Brown, Matt and
+              Millstein, Todd and
+              Tamir, Yuval and
+              Varghese, George},
+    title = {Campion: Debugging Router Configuration Differences},
+    year = {2021},
+    isbn = {9781450383837},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3452296.3472925},
+    doi = {10.1145/3452296.3472925},
+    booktitle = {Proceedings of the 2021 ACM SIGCOMM 2021 Conference},
+    pages = {748–761},
+    numpages = {14},
+    keywords = {error localization, network verification, modular reasoning, equivalence checking},
+    location = {Virtual Event, USA},
+    series = {SIGCOMM '21}
+}
+{% endraw %} ```
