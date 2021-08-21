@@ -44,3 +44,4 @@
 [SIGCOMM 2020]:            https://conferences.sigcomm.org/sigcomm/2020/
 [SIGCOMM 2021]:            https://conferences.sigcomm.org/sigcomm/2021/
 [OARC 2021]:               https://indico.dns-oarc.net/event/38/
+[HotNets 2021]:            https://conferences.sigcomm.org/hotnets/2021/
