@@ -22,8 +22,8 @@ links:
     PDF: '%BASE_URL%/assets/pdf/sigcomm21_campion.pdf'
     # Poster: '/assets/pdf/Poster2019.pdf'
     Tool: 'https://github.com/atang42/batfish/tree/rm-localize'
-    # Talk: 'https://youtu.be/CV_-MH7tSLM'
-    # Slides: 'https://1drv.ms/p/s!AhY-8TRoGbdAiU5qIyG494E4UfkS?e=0QqV8b'
+    Talk: 'https://youtu.be/vOAjrZNsnhI?t=1017'
+    Slides: '/assets/pdf/Campion_presentation.pdf'
 
 ---
 
