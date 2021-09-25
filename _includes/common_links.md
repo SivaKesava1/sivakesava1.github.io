@@ -18,6 +18,8 @@
 [Anees Shaikh]:           http://ashaikh.com/ashaikh_com/
 [Ennan Zhai]:             https://ennanzhai.github.io/
 [Matt Brown]:             https://www.intentionet.com/team/matt-brown/
+[John Backes]:             https://www.linkedin.com/in/john-backes-8163102a
+
 
 {% comment %}             SCHOOLS
 {% endcomment %}
