@@ -45,4 +45,21 @@ the number of records.
 
 #### BibTeX Citation
 
-Coming soon!
+```bibtex {% raw %}
+@inproceedings{10.1145/3484266.3487369,
+author = {Kakarla, Siva Kesava Reddy and Beckett, Ryan and Millstein, Todd and Varghese, George},
+title = {How Complex is DNS?},
+year = {2021},
+isbn = {9781450390873},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3484266.3487369},
+doi = {10.1145/3484266.3487369},
+booktitle = {Proceedings of the Twentieth ACM Workshop on Hot Topics in Networks},
+pages = {116–122},
+numpages = {7},
+keywords = {verification complexity, automata theory, DNS, pushdown systems, computational complexity},
+location = {Virtual Event, United Kingdom},
+series = {HotNets '21}
+}
+{% endraw %} ```
