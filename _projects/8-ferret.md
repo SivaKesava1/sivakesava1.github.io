@@ -13,8 +13,8 @@ year: 2022
 
 target:
     short: NSDI
-    full: 'Proceedings of the 17&hairsp;<sup>th</sup> USENIX Symposium on Networked Systems Design and Implementation, 2020'
-    link: 'https://www.usenix.org/conference/nsdi20'
+    full: 'Proceedings of the 19&hairsp;<sup>th</sup> USENIX Symposium on Networked Systems Design and Implementation, 2022'
+    link: 'https://www.usenix.org/conference/nsdi22'
 
 # links:
 #     PDF: '%BASE_URL%/assets/pdf/nsdi20_selfstarter.pdf'
