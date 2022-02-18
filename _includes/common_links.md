@@ -48,3 +48,4 @@
 [OARC 2021]:               https://indico.dns-oarc.net/event/38/
 [HotNets 2021]:            https://conferences.sigcomm.org/hotnets/2021/
 [NSDI 2022]:               https://www.usenix.org/conference/nsdi22
+[OARC 2022]:               https://indico.dns-oarc.net/event/42/
