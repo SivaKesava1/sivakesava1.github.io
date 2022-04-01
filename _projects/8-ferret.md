@@ -7,9 +7,9 @@ authors : ['Siva Kesava Reddy Kakarla', '[Ryan Beckett]', '[Todd Millstein]', '[
 
 year: 2022
 
-# DOI:
-#     target: USENIX
-#     link: https://www.usenix.org/conference/nsdi20/presentation/kakarla
+DOI:
+    target: USENIX
+    link: https://www.usenix.org/conference/nsdi22/presentation/kakarla
 
 target:
     short: NSDI
@@ -33,5 +33,18 @@ The Domain Name System (DNS) has intricate features that interact in subtle ways
 
 #### BibTeX Citation
 
-Coming soon!
+```bibtex {% raw %}
+@inproceedings {278336,
+author = {Siva Kesava Reddy Kakarla and Ryan Beckett and Todd Millstein and George Varghese},
+title = {{SCALE}: Automatically Finding {RFC} Compliance Bugs in {DNS} Nameservers},
+booktitle = {19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)},
+year = {2022},
+isbn = {978-1-939133-27-4},
+address = {Renton, WA},
+pages = {307--323},
+url = {https://www.usenix.org/conference/nsdi22/presentation/kakarla},
+publisher = {USENIX Association},
+month = apr,
+}
+{% endraw %} ```
 
