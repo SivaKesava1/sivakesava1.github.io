@@ -19,8 +19,8 @@ target:
 links:
     PDF: '%BASE_URL%/assets/pdf/nsdi22_ferret.pdf'
     Tool: 'https://github.com/dns-groot/Ferret'
-    # Slides: 'https://1drv.ms/p/s!AhY-8TRoGbdAiGUEzxNIj69-BVJy?e=m00tIw'
-    # Talk: 'https://www.youtube.com/watch?v=X4tk4w_PEv0'
+    Slides: 'https://1drv.ms/p/s!AhY-8TRoGbdAiWrBUlFjQscCZMsE?e=kJjbce'
+    Talk: 'https://www.youtube.com/watch?v=LIK7p2I4ZlI'
 ---
 
 
