@@ -3,7 +3,7 @@
 [Todd Millstein]:         https://web.cs.ucla.edu/~todd
 [George Varghese]:        https://web.cs.ucla.edu/~varghese
 [Yuval Tamir]:            https://web.cs.ucla.edu/~tamir
-[Ravi Netravali]:         https://web.cs.ucla.edu/~ravi
+[Ravi Netravali]:         https://www.cs.princeton.edu/~ravian/
 [Ryan Beckett]:           https://www.microsoft.com/en-us/research/people/rybecket/
 [Ratul Mahajan]:          https://ratul.org/
 [Victor Bahl]:            https://www.microsoft.com/en-us/research/people/bahl/
