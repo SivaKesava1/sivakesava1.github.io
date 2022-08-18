@@ -38,3 +38,15 @@ Given the DNS zone files of an organization and a property of interest, =sc^GRoo
 I conclude with a theoretical analysis of the DNS to categorize its complexity and expressive power.
 
 {% include common_links.md %}
+
+
+#### BibTeX Citation
+
+```bibtex {% raw %}
+@phdthesis{kakarla2022formal,
+  title={Formal Methods for a Robust Domain Name System},
+  author={Kakarla, Siva Kesava Reddy},
+  year={2022},
+  school={UCLA}
+}
+{% endraw %} ```

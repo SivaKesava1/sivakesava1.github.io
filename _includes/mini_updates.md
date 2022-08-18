@@ -1,6 +1,6 @@
 
 <div>
-<h4 class="updates-small-caps"> <i class='far fa-fw fa-sm fa-clock'></i> Recent Updates <em> &middot; &middot; &middot;</em> (<a href="/updates"> Details </a>)</h4>
+<h4> <i class='far fa-fw fa-sm fa-clock'></i> Recent Updates <em> &middot; &middot; &middot;</em> (<a href="/updates"> Details </a>)</h4>
 </div>
 
 <div class='mini-events'>

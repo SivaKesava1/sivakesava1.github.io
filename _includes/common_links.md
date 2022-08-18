@@ -18,8 +18,8 @@
 [Anees Shaikh]:           http://ashaikh.com/ashaikh_com/
 [Ennan Zhai]:             https://ennanzhai.github.io/
 [Matt Brown]:             https://www.intentionet.com/team/matt-brown/
-[John Backes]:             https://www.linkedin.com/in/john-backes-8163102a
-
+[John Backes]:            https://www.linkedin.com/in/john-backes-8163102a
+[Ranveer Chandra]:        https://www.microsoft.com/en-us/research/people/ranveer/
 
 {% comment %}             SCHOOLS
 {% endcomment %}
@@ -31,8 +31,9 @@
 {% endcomment %}
 [CS@IITKgp]:              http://cse.iitkgp.ac.in/
 [CS@UCLA]:                https://cs.ucla.edu
-[Microsoft Research]:     https://www.microsoft.com/en-us/research/
+[Microsoft Research]:     https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/
 [MNR ]:                   https://www.microsoft.com/en-us/research/group/mobility-and-networking-research/
+[NRG]:                    https://www.microsoft.com/en-us/research/group/networking-research/people/
 [NetInfra]:               https://research.google/teams/network-systems/
 {% comment %}             AWARDS, GRANTS etc.
 {% endcomment %}
