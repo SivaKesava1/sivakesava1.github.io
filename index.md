@@ -36,6 +36,8 @@ My projects in network verification have been in collaboration with [Ryan Becket
 
 Before UCLA happened, I  was an undergraduate in the [CSE department][CS@IITKGP] at [IIT Kharagpur] where I was advised by [Prof. Sandip Chakraborty][Sandip Chakraborty] for my undergraduate thesis.
 
+Click [**here**](https://www.microsoft.com/en-us/research/people/sivakakarla/) for my Microsoft webpage.
+
 <h4><i class='far fa-fw fa-sm fa-address-book'></i> Contact Me </h4>
 
 <em>Office</em>: &nbsp; [Microsoft Building 99][MSRA], Redmond, WA
