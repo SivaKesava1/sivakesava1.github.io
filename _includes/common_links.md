@@ -20,6 +20,11 @@
 [Matt Brown]:             https://www.intentionet.com/team/matt-brown/
 [John Backes]:            https://www.linkedin.com/in/john-backes-8163102a
 [Ranveer Chandra]:        https://www.microsoft.com/en-us/research/people/ranveer/
+[Miguel Castro]:          https://www.microsoft.com/en-us/research/people/mcastro/
+[Srikanth Kandula]:       https://www.microsoft.com/en-us/research/people/srikanth/
+[Saeed Maleki]:           https://www.microsoft.com/en-us/research/people/saemal/
+[Luke Marshall]:          https://www.microsoft.com/en-us/research/people/lumarsha/
+
 
 {% comment %}             SCHOOLS
 {% endcomment %}
