@@ -7,9 +7,9 @@ authors : ['Siva Kesava Reddy Kakarla']
 
 year: 2022
 
-# DOI:
-#     target: arXiv
-#     link: https://arxiv.org/abs/1902.09033
+DOI:
+    target: eScholarship
+    link: https://escholarship.org/uc/item/589243sx
 
 target:
     short: PhD Dissertation

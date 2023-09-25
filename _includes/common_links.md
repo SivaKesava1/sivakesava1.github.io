@@ -24,7 +24,8 @@
 [Srikanth Kandula]:       https://www.microsoft.com/en-us/research/people/srikanth/
 [Saeed Maleki]:           https://www.microsoft.com/en-us/research/people/saemal/
 [Luke Marshall]:          https://www.microsoft.com/en-us/research/people/lumarsha/
-
+[Sadjad Fouladi]:         https://sadjad.org/
+[Pouya Hamadanian]:       https://people.csail.mit.edu/pouyah/
 
 {% comment %}             SCHOOLS
 {% endcomment %}
@@ -57,3 +58,7 @@
 [NSDI 2022]:               https://www.usenix.org/conference/nsdi22
 [OARC 2022]:               https://indico.dns-oarc.net/event/42/
 [ANRW 2023]:               https://irtf.org/anrw/2023/committees.html
+[SIGCOMM 2023]:            https://conferences.sigcomm.org/sigcomm/2023/cf-posters.html
+[SRC 2023]:                https://src.acm.org/
+[CONEXT 2024]:             https://conferences.sigcomm.org/co-next/2023/#!/home
+[HotNets 2023]:            https://conferences.sigcomm.org/hotnets/2023/
