@@ -3,7 +3,7 @@ date: 2023-09-11
 
 type: award
 
-photo: 'thesis_award.jpeg'
+photo: 'thesis_award_1.jpg'
 
 headline: '[ACM SIGCOMM Dissertation Honorable Mention](https://twitter.com/adityaakella/status/1669184300594372609?s=20)'
 ---
