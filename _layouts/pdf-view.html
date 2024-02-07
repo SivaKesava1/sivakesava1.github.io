@@ -2,7 +2,7 @@
 layout: default
 ---
 <main id="main" class="site-main">
-  <h1 class="title-small-caps"><i style="font-size:0.8em;" class="fa fa-fw fa-file-pdf"></i>&nbsp;{{ page.title | default: layout.title }}</h1>
+  <h1 class="title-small-caps"><i style="font-size:0.8em;" class="fa fa-fw fa-file-{{page.icon | default: pdf}}"></i>&nbsp;{{ page.title | default: layout.title }}</h1>
   {{ content }}
   <object id='pdf' data='{{ page.pdf }}#view=fitH' type='application/pdf'
     style='width: 100%; height: 100%; margin-top: -0.5em;'>
