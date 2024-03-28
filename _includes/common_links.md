@@ -26,6 +26,7 @@
 [Luke Marshall]:          https://www.microsoft.com/en-us/research/people/lumarsha/
 [Sadjad Fouladi]:         https://sadjad.org/
 [Pouya Hamadanian]:       https://people.csail.mit.edu/pouyah/
+[Francis Y. Yan]:         https://francisyyan.org/
 
 {% comment %}             SCHOOLS
 {% endcomment %}
@@ -62,3 +63,7 @@
 [SRC 2023]:                https://src.acm.org/
 [CONEXT 2024]:             https://conferences.sigcomm.org/co-next/2023/#!/home
 [HotNets 2023]:            https://conferences.sigcomm.org/hotnets/2023/
+[NSDI 2024]:               https://www.usenix.org/conference/nsdi24
+[ANRW 2024]:               https://irtf.org/anrw/2024/committees.html
+[PLDI 2024]:               https://pldi24.sigplan.org/
+[NSDI 2025]:               https://www.usenix.org/conference/nsdi25

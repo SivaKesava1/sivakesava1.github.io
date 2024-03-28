@@ -15,3 +15,4 @@
 *[NSDI]:            (USENIX Symposium on) Networked Systems Design and Implementation
 *[SIGCOMM]:         ACM Special Interest Group on Data Communication
 *[GLOBECOM]:        IEEE Global Communications Conference
+*[PLDI]:            Programming Language Design and Implementation
