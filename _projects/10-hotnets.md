@@ -19,6 +19,7 @@ target:
 
 links:
     PDF: '%BASE_URL%/assets/pdf/hotnets23_llms.pdf'
+    Slides: 'https://1drv.ms/p/s!AhY-8TRoGbdAjzTS3b6Hv07Tcenw?e=hBUfrM'
 
 ---
 

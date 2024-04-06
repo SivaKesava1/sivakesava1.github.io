@@ -15,6 +15,7 @@ target:
 artifact_badges: ['acm_available']
 
 links:
+    PDF: '%BASE_URL%/assets/pdf/pldi24_diffy.pdf'
     Tool: 'https://github.com/microsoft/DiffyConfigAnalyzer'
 
 ---
