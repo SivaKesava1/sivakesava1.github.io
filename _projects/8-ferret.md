@@ -7,6 +7,10 @@ authors : ['Siva Kesava Reddy Kakarla', '[Ryan Beckett]', '[Todd Millstein]', '[
 
 year: 2022
 
+awards:
+  - icon: star
+    desc: 'IRTF/IETF Applied Networking Research Prize'
+
 DOI:
     target: USENIX
     link: https://www.usenix.org/conference/nsdi22/presentation/kakarla
