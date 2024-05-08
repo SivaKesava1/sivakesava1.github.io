@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "=sc^MESSI^sc=: Behavioral Testing of BGP Implementations
-"
+title: "=sc^MESSI^sc=: Behavioral Testing of BGP Implementations"
 categories: [project]
 sorter: 11
 authors : ['Rathin Singha', 'Rajdeep Mondal', '[Ryan Beckett]', 'Siva Kesava Reddy Kakarla', '[Todd Millstein]', '[George Varghese]']
@@ -32,4 +31,17 @@ Complex network protocols like the Border Gateway Protocol (BGP) are prone to im
 
 #### BibTeX Citation
 
-Soon!
+```bibtex {% raw %}
+@inproceedings {295579,
+author = {Rathin Singha and Rajdeep Mondal and Ryan Beckett and Siva Kesava Reddy Kakarla and Todd Millstein and George Varghese},
+title = {{MESSI}: Behavioral Testing of {BGP} Implementations},
+booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+year = {2024},
+isbn = {978-1-939133-39-7},
+address = {Santa Clara, CA},
+pages = {1009--1023},
+url = {https://www.usenix.org/conference/nsdi24/presentation/singha},
+publisher = {USENIX Association},
+month = apr
+}
+{% endraw %} ```

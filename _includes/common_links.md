@@ -20,13 +20,14 @@
 [Matt Brown]:             https://www.intentionet.com/team/matt-brown/
 [John Backes]:            https://www.linkedin.com/in/john-backes-8163102a
 [Ranveer Chandra]:        https://www.microsoft.com/en-us/research/people/ranveer/
-[Miguel Castro]:          https://www.microsoft.com/en-us/research/people/mcastro/
 [Srikanth Kandula]:       https://www.microsoft.com/en-us/research/people/srikanth/
-[Saeed Maleki]:           https://www.microsoft.com/en-us/research/people/saemal/
 [Luke Marshall]:          https://www.microsoft.com/en-us/research/people/lumarsha/
 [Sadjad Fouladi]:         https://sadjad.org/
 [Pouya Hamadanian]:       https://people.csail.mit.edu/pouyah/
 [Francis Y. Yan]:         https://francisyyan.org/
+[Vincent Liu]:            https://vincen.tl/
+[Xuting Liu]:             https://xutingl.github.io/
+
 
 {% comment %}             SCHOOLS
 {% endcomment %}
@@ -67,3 +68,4 @@
 [ANRW 2024]:               https://irtf.org/anrw/2024/committees.html
 [PLDI 2024]:               https://pldi24.sigplan.org/
 [NSDI 2025]:               https://www.usenix.org/conference/nsdi25
+[SIGCOMM 2024]:            https://conferences.sigcomm.org/sigcomm/2024/
