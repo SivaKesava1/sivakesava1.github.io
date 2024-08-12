@@ -19,6 +19,8 @@ target:
 links:
     PDF: '%BASE_URL%/assets/pdf/nsdi24_messi.pdf'
     Tool: 'https://github.com/rsingha108/MESSI'
+    Talk: 'https://youtu.be/3GP2LK1jB3A'
+    Slides: 'https://1drv.ms/b/c/40b7196834f13e16/EdonMoe5yCpLv0Wj7VNPEd8Bow_dSaTRJlgCqV1tTFVGZg?e=Ij4Nsy'
 ---
 
 
