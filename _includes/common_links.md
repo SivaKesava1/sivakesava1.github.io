@@ -27,7 +27,13 @@
 [Francis Y. Yan]:         https://francisyyan.org/
 [Vincent Liu]:            https://vincen.tl/
 [Xuting Liu]:             https://xutingl.github.io/
-
+[Pooria Namyar]:          https://nsl.usc.edu/people/pooria-namyar/
+[Michael Schapira]:       https://www.cs.huji.ac.il/~schapiram/
+[Ramesh Govindan]:        https://govindan.usc.edu/
+[Santiago Segarra]:       https://segarra.rice.edu/
+[Pantea Karimi]:          https://people.csail.mit.edu/pkarimib/
+[Solal Pirelli]:          https://solalpirelli.github.io/
+[Beibin Li]:              https://www.beibinli.com/
 
 {% comment %}             SCHOOLS
 {% endcomment %}
@@ -69,3 +75,4 @@
 [PLDI 2024]:               https://pldi24.sigplan.org/
 [NSDI 2025]:               https://www.usenix.org/conference/nsdi25
 [SIGCOMM 2024]:            https://conferences.sigcomm.org/sigcomm/2024/
+[HotNets 2024]:            https://conferences.sigcomm.org/hotnets/2024/
