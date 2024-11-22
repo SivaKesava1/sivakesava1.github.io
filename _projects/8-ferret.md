@@ -39,7 +39,10 @@ The Domain Name System (DNS) has intricate features that interact in subtle ways
 
 ```bibtex {% raw %}
 @inproceedings {278336,
-author = {Siva Kesava Reddy Kakarla and Ryan Beckett and Todd Millstein and George Varghese},
+author = {Siva Kesava Reddy Kakarla and
+          Ryan Beckett and
+          Todd Millstein and
+          George Varghese},
 title = {{SCALE}: Automatically Finding {RFC} Compliance Bugs in {DNS} Nameservers},
 booktitle = {19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)},
 year = {2022},

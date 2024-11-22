@@ -18,6 +18,8 @@ target:
     full: 'Proceedings of the ACM Special Interest Group on Data Communication, 2024'
     link: 'https://conferences.sigcomm.org/sigcomm/2024/'
 
+artifact_badges: ['acm_available', 'acm_functional']
+
 links:
     PDF: '%BASE_URL%/assets/pdf/sigcomm24_teccl.pdf'
     Tool: 'https://github.com/microsoft/TE-CCL'
@@ -34,7 +36,14 @@ Cloud operators utilize collective communication optimizers to enhance the eﬃc
 
 ```bibtex {% raw %}
 @inproceedings{10.1145/3651890.3672249,
-author = {Liu, Xuting and Arzani, Behnaz and Kakarla, Siva Kesava Reddy and Zhao, Liangyu and Liu, Vincent and Castro, Miguel and Kandula, Srikanth and Marshall, Luke},
+author = {Liu, Xuting and 
+          Arzani, Behnaz and
+          Kakarla, Siva Kesava Reddy and
+          Zhao, Liangyu and
+          Liu, Vincent and
+          Castro, Miguel and
+          Kandula, Srikanth and
+          Marshall, Luke},
 title = {Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem},
 year = {2024},
 isbn = {9798400706141},

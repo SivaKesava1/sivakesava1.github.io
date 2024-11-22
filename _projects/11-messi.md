@@ -35,7 +35,12 @@ Complex network protocols like the Border Gateway Protocol (BGP) are prone to im
 
 ```bibtex {% raw %}
 @inproceedings {295579,
-author = {Rathin Singha and Rajdeep Mondal and Ryan Beckett and Siva Kesava Reddy Kakarla and Todd Millstein and George Varghese},
+author = {Rathin Singha and
+          Rajdeep Mondal and
+          Ryan Beckett and
+          Siva Kesava Reddy Kakarla and
+          Todd Millstein and
+          George Varghese},
 title = {{MESSI}: Behavioral Testing of {BGP} Implementations},
 booktitle = {21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
 year = {2024},

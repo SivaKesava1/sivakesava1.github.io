@@ -20,7 +20,7 @@
 [Matt Brown]:             https://www.intentionet.com/team/matt-brown/
 [John Backes]:            https://www.linkedin.com/in/john-backes-8163102a
 [Ranveer Chandra]:        https://www.microsoft.com/en-us/research/people/ranveer/
-[Srikanth Kandula]:       https://www.microsoft.com/en-us/research/people/srikanth/
+[Srikanth Kandula]:       https://www.linkedin.com/in/srikanthkandula
 [Luke Marshall]:          https://www.microsoft.com/en-us/research/people/lumarsha/
 [Sadjad Fouladi]:         https://sadjad.org/
 [Pouya Hamadanian]:       https://people.csail.mit.edu/pouyah/

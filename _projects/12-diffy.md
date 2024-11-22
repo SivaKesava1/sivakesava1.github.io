@@ -38,7 +38,9 @@ Configuration errors remain a major cause of system failures and service outages
 
 ```bibtex {% raw %}
 @article{10.1145/3656385,
-author = {Kakarla, Siva Kesava Reddy and Yan, Francis Y. and Beckett, Ryan},
+author = {Kakarla, Siva Kesava Reddy and
+          Yan, Francis Y. and
+          Beckett, Ryan},
 title = {Diffy: Data-Driven Bug Finding for Configurations},
 year = {2024},
 issue_date = {June 2024},

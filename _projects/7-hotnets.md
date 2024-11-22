@@ -47,7 +47,10 @@ the number of records.
 
 ```bibtex {% raw %}
 @inproceedings{10.1145/3484266.3487369,
-author = {Kakarla, Siva Kesava Reddy and Beckett, Ryan and Millstein, Todd and Varghese, George},
+author = {Kakarla, Siva Kesava Reddy and 
+          Beckett, Ryan and
+          Millstein, Todd and
+          Varghese, George},
 title = {How Complex is DNS?},
 year = {2021},
 isbn = {9781450390873},
