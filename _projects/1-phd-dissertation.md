@@ -11,6 +11,10 @@ DOI:
     target: eScholarship
     link: https://escholarship.org/uc/item/589243sx
 
+awards:
+  - icon: star
+    desc: 'ACM SIGCOMM Doctoral Dissertation Award Runner Up'
+
 target:
     short: PhD Dissertation
 
