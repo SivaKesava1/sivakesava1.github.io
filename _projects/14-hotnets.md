@@ -18,6 +18,7 @@ target:
 
 links:
     PDF: '%BASE_URL%/assets/pdf/hotnets24_end_to_end.pdf'
+    Slides: 'https://1drv.ms/p/c/40b7196834f13e16/EbH5CrIvV_9Ju7j0a98zNW0Bv3zljE77GsT_6mXoJnTupg?e=1IyH7f'
 
 ---
 
