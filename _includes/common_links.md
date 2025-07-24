@@ -76,3 +76,4 @@
 [NSDI 2025]:               https://www.usenix.org/conference/nsdi25
 [SIGCOMM 2024]:            https://conferences.sigcomm.org/sigcomm/2024/
 [HotNets 2024]:            https://conferences.sigcomm.org/hotnets/2024/
+[SIGCOMM 2025]:            https://conferences.sigcomm.org/sigcomm/2025/
