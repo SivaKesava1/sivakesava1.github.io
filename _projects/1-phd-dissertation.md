@@ -20,6 +20,7 @@ target:
 
 links:
     PDF: '%BASE_URL%/assets/pdf/dissertation_phd.pdf'
+    Slides: 'https://1drv.ms/p/s!AhY-8TRoGbdAihP17Ok9wCrjG3gY?e=l38kGY'
 ---
 
 #### Abstract
