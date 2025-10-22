@@ -77,3 +77,4 @@
 [SIGCOMM 2024]:            https://conferences.sigcomm.org/sigcomm/2024/
 [HotNets 2024]:            https://conferences.sigcomm.org/hotnets/2024/
 [SIGCOMM 2025]:            https://conferences.sigcomm.org/sigcomm/2025/
+[EUROSYS 2026]:            https://2026.eurosys.org/
