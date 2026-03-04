@@ -3,14 +3,15 @@ name: 'Siva Kesava Reddy Kakarla'
 short: 'Siva Kakarla'
 description: 'Senior Researcher'
 description1: 'Microsoft Research, Redmond'
-meta_description: 'Personal website'
+meta_description: 'Personal website of Siva Kesava Reddy Kakarla, Senior Researcher at Microsoft Research'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
+  name: 'Siva Kesava Reddy Kakarla'
   image: 'authorimage.jpg'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
-production_url: https://royce.netlify.com/
+production_url: https://www.sivak.dev/
 disqus: 'justgoodthemes'
 mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 # Add your GA Tracking Id

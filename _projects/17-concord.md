@@ -2,7 +2,7 @@
 layout: post
 title: "=sc^Concord^sc=: Learning Network Configuration Contracts"
 categories: [project]
-sorter: 16
+sorter: 17
 authors : ['[Ryan Beckett]', '[Francis Y. Yan]', Raghunadha Reddy Pocha, Vineesh V. Raj, Ayyub Shaik, 'Siva Kesava Reddy Kakarla']
 
 year: 2026
