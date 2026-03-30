@@ -19,7 +19,7 @@ target:
 artifact_badges: ['usenix_available', 'usenix_functional', 'usenix_reproduced']
 
 links:
-    PDF: '%BASE_URL%/assets/pdf/nsdi26_eywa.pdf'
+    PDF: '%BASE_URL%/assets/pdf/nsdi26_metaease.pdf'
     Tool: 'https://github.com/microsoft/MetaEase'
     # Slides: 
     # Talk:
