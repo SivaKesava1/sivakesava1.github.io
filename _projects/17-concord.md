@@ -19,6 +19,7 @@ target:
 
 links:
     PDF: '%BASE_URL%/assets/pdf/eurosys26_concord.pdf'
+    Slides: 'https://1drv.ms/p/c/40b7196834f13e16/IQB1M6IFCuIvT6Qcn2fANrlIAaWGzrsmOF3n-5YIJnAD0u8?e=Tf8e95'
 
     
 ---
@@ -31,5 +32,26 @@ Misconfiguration is frequently cited as a leading cause of service disruptions a
 
 #### BibTeX Citation
 
-Coming soon!
-
+```bibtex {% raw %}
+@inproceedings{10.1145/3767295.3769338,
+    author = {Beckett, Ryan and
+              Yan, Francis Y. and
+              Pocha, Raghunadha Reddy and
+              Raj, Vineesh V. and
+              Shaik, Ayyub and
+              Kakarla, Siva Kesava Reddy},
+    title = {Concord: Learning Network Configuration Contracts},
+    year = {2026},
+    isbn = {9798400722127},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3767295.3769338},
+    doi = {10.1145/3767295.3769338},
+    booktitle = {Proceedings of the 21st European Conference on Computer Systems},
+    pages = {801–818},
+    numpages = {18},
+    keywords = {configuration validation, misconfiguration detection, network reliability, association rule learning},
+    location = {McEwan Hall/The University of Edinburgh, Edinburgh, Scotland UK},
+    series = {EUROSYS '26}
+}
+{% endraw %} ```
