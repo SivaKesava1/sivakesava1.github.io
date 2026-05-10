@@ -7,9 +7,9 @@ authors : ['Rajdeep Mondal', 'Rathin Singha', '[Todd Millstein]', '[George Vargh
 
 year: 2026
 
-# DOI:
-#     target: USENIX
-#     link: 
+DOI:
+    target: USENIX
+    link: https://www.usenix.org/conference/nsdi26/presentation/mondal
 
 target:
     short: NSDI
@@ -37,4 +37,21 @@ Our new approach to MBT uses LLMs to automatically build rich models of intended
 
 #### BibTeX Citation
 
-Coming soon!
+```bibtex {% raw %}
+@inproceedings {316682,
+author = {Rajdeep Mondal and 
+          Rathin Singha and
+          Todd Millstein and
+          George Varghese and
+          Ryan Beckett and Siva Kesava Reddy Kakarla},
+title = {Eywa: Automating {Model-Based} Testing using {LLMs}},
+booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
+year = {2026},
+isbn = {978-1-939133-54-0},
+address = {Renton, WA},
+pages = {777--800},
+url = {https://www.usenix.org/conference/nsdi26/presentation/mondal},
+publisher = {USENIX Association},
+month = may
+}
+{% endraw %} ```

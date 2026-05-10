@@ -7,9 +7,9 @@ authors : ['[Pantea Karimi]', 'Siva Kesava Reddy Kakarla', '[Pooria Namyar]', '[
 
 year: 2026
 
-# DOI:
-#     target: USENIX
-#     link: 
+DOI:
+    target: USENIX
+    link: https://www.usenix.org/conference/nsdi26/presentation/karimi
 
 target:
     short: NSDI
@@ -21,7 +21,7 @@ artifact_badges: ['usenix_available', 'usenix_functional', 'usenix_reproduced']
 links:
     PDF: '%BASE_URL%/assets/pdf/nsdi26_metaease.pdf'
     Tool: 'https://github.com/microsoft/MetaEase'
-    # Slides: 
+    Slides: "https://1drv.ms/p/c/40b7196834f13e16/IQAWDk0cCnd0QJ9bJEwywG-ZAUh3BkMle9BC3s1fl74vPWo?e=naERud"
     # Talk:
 ---
 
@@ -39,4 +39,23 @@ Across five problem domains and eight heuristics, =sc^MetaEase^sc= matched or ex
 
 #### BibTeX Citation
 
-Coming soon!
+```bibtex {% raw %}
+@inproceedings {316644,
+author = {Pantea Karimi and 
+          Siva Kesava Reddy Kakarla and 
+          Ryan Beckett and 
+          Santiago Segarra and 
+          Pooria Namyar and 
+          Mohammad Alizadeh and 
+          Behnaz Arzani},
+title = {Heuristic Analysis from Source Code via {Symbolic-Guided} Optimization},
+booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
+year = {2026},
+isbn = {978-1-939133-54-0},
+address = {Renton, WA},
+pages = {2151--2174},
+url = {https://www.usenix.org/conference/nsdi26/presentation/karimi},
+publisher = {USENIX Association},
+month = may
+}
+{% endraw %} ```
